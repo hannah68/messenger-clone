@@ -23,6 +23,9 @@
     "eslint-config-next": "13.4.2",
     "next": "13.4.2",
     "next-auth": "^4.22.1",
+    "next-compose-plugins": "^2.2.1",
+    "next-images": "^1.8.5",
+    "next-superjson-plugin": "^0.5.8",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -34,6 +37,7 @@
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
-    "prisma": "^4.14.1"
+    "prisma": "^4.14.1",
+    "swc-loader": "^0.2.3"
   }
 }
