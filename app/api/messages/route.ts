@@ -55,6 +55,7 @@ export async function POST(request: Request) {
 				},
 			},
 		});
+        return NextResponse.json(newMessage);
 
 	} catch (error) {
 		console.log(error, "ERROR_MESSAGES");
